@@ -27,6 +27,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Main main = new Main();
+        // リストは昇順にソート済み
         List<Integer> numbers = new ArrayList<>(Arrays.asList(1, 2, 3, 5, 8, 9, 10, 11, 13, 18, 20, 25));
         int result = main.binarySearch(numbers, sc.nextInt());
         System.out.println(result);
