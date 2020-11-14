@@ -46,7 +46,7 @@ class Main {
 
     public static void main(String[] args) {
         Main main = new Main();
-        List<Integer> numbers = new ArrayList<>(Arrays.asList(5, 1, 4, 7, 2, 8, 10, 6));
+        List<Integer> numbers = new ArrayList<>(Arrays.asList(100, 5, 1, 4, 99, 7, 2, 8, 0, 0, 10, 6, 99));
         List<Integer> result = main.mergeSortAsc(numbers);
         for (int i = 0; i < result.size(); i++) {
             System.out.println(result.get(i));

@@ -4,7 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
         Main main = new Main();
-        int[] result = main.insertionSortAsc(new int[]{5, 1, 4, 7, 2});
+        int[] result = main.insertionSortAsc(new int[]{5, 1, 4, 7, 2, 0});
         for (int i = 0; i < result.length; i++) {
             System.out.println(result[i]);
         }

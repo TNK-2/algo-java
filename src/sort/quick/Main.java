@@ -42,7 +42,7 @@ public class Main {
 
     public static void main(String[] args) {
         Main main = new Main();
-        int[] result = main.quickSortAsc(new int[]{5, 1, 4, 7, 2, 8, 10, 6});
+        int[] result = main.quickSortAsc(new int[]{100, 5, 1, 4, 99, 99, 7, 2, 8, 10, 6, 0, 0, 100});
         for (int i = 0; i < result.length; i++) {
             System.out.println(result[i]);
         }

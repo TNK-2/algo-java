@@ -59,7 +59,7 @@ public class BinarySearchTree {
     }
 
     public boolean search(Integer value) {
-       return this.search(this.root, value);
+        return this.search(this.root, value);
     }
 
     public boolean search(Node node, Integer value) {
@@ -80,7 +80,7 @@ public class BinarySearchTree {
         return this.remove(this.root, value);
     }
 
-    public Node remove (Node node, Integer value) {
+    public Node remove(Node node, Integer value) {
         if (this.root == null || node == null) {
             return null;
         }
@@ -103,9 +103,9 @@ public class BinarySearchTree {
         return node;
     }
 
-    private Node minValue (Node node) {
+    private Node minValue(Node node) {
         Node currentNode = node;
-        while (currentNode.getLeft() == null) {
+        while (currentNode.getLeft() != null) {
             currentNode = currentNode.getLeft();
         }
         return currentNode;
