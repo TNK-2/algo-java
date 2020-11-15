@@ -3,7 +3,7 @@ package hashtable;
 public class Main {
 
     public static void main (String[] args) {
-        HashTable hashTable = new HashTable();
+        HashTable<String, String> hashTable = new HashTable();
         hashTable.add("aaa", "111");
         hashTable.add("bbb", "222");
         hashTable.add("ccc", "333");
