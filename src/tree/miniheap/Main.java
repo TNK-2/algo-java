@@ -4,6 +4,9 @@ public class Main {
 
     public static void main(String[] args) {
         MiniHeap miniHeap = new MiniHeap();
+        System.out.println(miniHeap.pop());
+        System.out.println(miniHeap.pop());
+        System.out.println(miniHeap.pop());
         miniHeap.push(5);
         miniHeap.push(6);
         miniHeap.push(2);
@@ -21,14 +24,24 @@ public class Main {
         miniHeap.push(0);
         miniHeap.push(8);
         System.out.println("aaaaa : " + miniHeap.getHeap().toString());
-        miniHeap.pop();
-        miniHeap.pop();
-        miniHeap.pop();
-        miniHeap.pop();
-        miniHeap.pop();
-        miniHeap.pop();
-        miniHeap.pop();
-        miniHeap.pop();
+        System.out.println(miniHeap.pop());
+        System.out.println(miniHeap.pop());
+        System.out.println(miniHeap.pop());
+        System.out.println(miniHeap.pop());
+        System.out.println(miniHeap.pop());
+        System.out.println(miniHeap.pop());
+        System.out.println(miniHeap.pop());
+        System.out.println(miniHeap.pop());
+        System.out.println(miniHeap.pop());
+        System.out.println(miniHeap.pop());
+        System.out.println(miniHeap.pop());
+        System.out.println(miniHeap.pop());
+        System.out.println(miniHeap.pop());
+        System.out.println(miniHeap.pop());
+        System.out.println(miniHeap.pop());
+        System.out.println(miniHeap.pop());
+        System.out.println(miniHeap.pop());
+        System.out.println(miniHeap.pop());
         System.out.println("bbbbb : " + miniHeap.getHeap().toString());
     }
 }
