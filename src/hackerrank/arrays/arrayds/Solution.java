@@ -1,4 +1,4 @@
-package hackerrank.arrayds;
+package hackerrank.arrays.arrayds;
 
 import java.io.*;
 import java.util.*;
